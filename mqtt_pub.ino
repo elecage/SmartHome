@@ -1,8 +1,6 @@
 #include <WiFi.h>
 #include <PubSubClient.h>
 
-const char* ssid     = "bioElectronics";
-const char* password = "tlsfkd1004";
 
 const char* mqtt_server = "192.168.0.39";
 int smartConfigCount = 0;
